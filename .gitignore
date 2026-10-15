@@ -1,0 +1,41 @@
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Flutter / Dart generated files
+mobile_app/.dart_tool/
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+mobile_app/build/
+mobile_app/.packages
+
+# Android / IDE generated files
+mobile_app/android/.gradle/
+mobile_app/.idea/
+mobile_app/.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Python virtual environments
+**/.venv/
+**/venv/
+**/env/
+
+# Flutter test backup files
+*.bak
+backend/upi_reports.json
